@@ -4,9 +4,15 @@
   "description": "",
   "main": "index.js",
   Debug발생!!!!
+  이경우) 테스트 스크립트에서 디버그 발생했으므로 해당 부분을 주석으로 처리해주면 해결 됨
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
+   // "scripts": {
+  //   "test": "echo \"Error: no test specified\" && exit 1"
+  // },
+  
   "author": "jihye",
   "license": "ISC"
 }
