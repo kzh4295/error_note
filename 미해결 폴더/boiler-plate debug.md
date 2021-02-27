@@ -48,11 +48,20 @@ Waiting for the debugger to disconnect...
 
 |:----------|:----------:|----------:|
 | 상황 | node init으로 package.json을 구성하는 과정에서 script위에 debug가 발생해 해맴 |
-| 해결시도 | 1. ~~주석 처리 -> 다른 파일 실행 과정에서 주석처리로 인한 에러~~
-             1. ~~npm cache clean --force : 캐시 제거~~ 
-             2. ~~npm install --global node-gyp~~ 
-             3. ~~peer dependency install~~ 
-             4. ~~"script" "test" : "echo : mocha" 로 수정~~ 
+| 해결시도 | 1. ~~주석 처리 -> 다른 파일 실행 과정에서 주석처리로 인한 에러~~|
+             1. ~~npm cache clean --force : 캐시 제거~~ |
+             2. ~~npm install --global node-gyp~~ |
+             3. ~~peer dependency install~~ |
+             4. ~~"script" "test" : "echo : mocha" 로 수정~~ |
 | 해결 | This is not an error and the "debug" text is not actually part of the file.
 
 VSCode inserts the "debug" button as a shortcut for running the scripts in the package.json file. When you click on it, a popup will appear allowing you to select the script you want to run or debug. |
+
+
+
+
+| 드라마 제목 | 주연 배우 | 방영일 |
+|:----------|:----------:|----------:|
+| **호텔 델루나** | 이지은, 여진구 | ~~2019.07.13. ~ 2019.09.01.~~ |
+| 타인은 지옥이다 | 임시완, 이동욱, 이현욱, 이정은 | 2019.08.31. ~ |
+| 멜로가 체질 | 천우희, 안재홍, 전여빈, 공명 | 2019.08.09. ~ |
