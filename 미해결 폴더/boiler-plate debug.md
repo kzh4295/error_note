@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  `Debug발생!!!!`
+
+<span style="color:red">debug</span>
+<span style="color:#d3d3d3">#d3d3d3</span>
+<span style="color:rgb(245, 235, 13)">rgb(245, 235, 13)</span>
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -53,7 +56,7 @@ Waiting for the debugger to disconnect...
 
 |  |  |
 |:----------|:----------|
-| 상황 | node init으로 package.json을 구성하는 과정에서 script위에 debug가 발생해 해맴 |
+| 상황 | node init으로 package.json을 구성하는 과정에서 script위에 debug 발생 |
 | 해결시도 |  1. ~~주석 처리 -> 다른 파일 실행 과정에서 주석처리로 인한 에러~~|
 |          |  2. ~~npm cache clean --force : 캐시 제거~~ |
 |          |  3. ~~npm install --global node-gyp~~ |
