@@ -59,8 +59,7 @@ Waiting for the debugger to disconnect...
 |          |  3. ~~npm install --global node-gyp~~ |
 |          |  4. ~~peer dependency install~~ |
 |          |  5. ~~"script" "test" : "echo : mocha" 로 수정~~ |
-| 해결 | This is not an error and the "debug" text is not actually part of the file.
-VSCode inserts the "debug" button as a shortcut for running the scripts in the package.json file. When you click on it, a popup will appear allowing you to select the script you want to run or debug. |   
+| 해결 | This is not an error and the "debug" text is not actually part of the file VSCode inserts the "debug" button as a shortcut for running the scripts in the packagejson file When you click on it, a popup will appear allowing you to select the script you want to run or debug. |   
 
 
 
