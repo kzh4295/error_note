@@ -51,8 +51,8 @@ Waiting for the debugger to disconnect...
 
 
 
-|  |  |
-|:----------|:----------:|
+
+|:----------|:----------|
 | 상황 | node init으로 package.json을 구성하는 과정에서 script위에 debug가 발생해 해맴 |
 | 해결시도 |  1. ~~주석 처리 -> 다른 파일 실행 과정에서 주석처리로 인한 에러~~|
 |          |  2. ~~npm cache clean --force : 캐시 제거~~ |
