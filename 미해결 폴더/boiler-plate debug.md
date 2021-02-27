@@ -45,3 +45,14 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/pro/.npm/_logs/2021-02-14T05_34_28_205Z-debug.log
 Waiting for the debugger to disconnect...
 (base) ➜  boiler-plate 
+
+|:----------|:----------:|----------:|
+| 상황 | node init으로 package.json을 구성하는 과정에서 script위에 debug가 발생해 해맴 |
+| 해결시도 | 1. ~~주석 처리 -> 다른 파일 실행 과정에서 주석처리로 인한 에러~~
+             1. ~~npm cache clean --force : 캐시 제거~~ 
+             2. ~~npm install --global node-gyp~~ 
+             3. ~~peer dependency install~~ 
+             4. ~~"script" "test" : "echo : mocha" 로 수정~~ 
+| 해결 | This is not an error and the "debug" text is not actually part of the file.
+
+VSCode inserts the "debug" button as a shortcut for running the scripts in the package.json file. When you click on it, a popup will appear allowing you to select the script you want to run or debug. |
