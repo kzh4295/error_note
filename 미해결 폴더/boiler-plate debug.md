@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
 
-# debug
+<span style="color:yellow">debug</span>
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
