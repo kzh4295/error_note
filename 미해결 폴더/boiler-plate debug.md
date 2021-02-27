@@ -5,8 +5,6 @@
   "main": "index.js",
 
 <span style="color:red">debug</span>
-<span style="color:#d3d3d3">#d3d3d3</span>
-<span style="color:rgb(245, 235, 13)">rgb(245, 235, 13)</span>
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
