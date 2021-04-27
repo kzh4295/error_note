@@ -7,3 +7,4 @@
 ||3)sudo vi /etc/ssh/sshd_config에서 password 설정 변경 후 systemctl restart ssh하려고 시도 (미해결)
 ||4) sudo vi /Users/pro/.ssh/known hosts 명령어로 처음 접속하는 host에서 잘못 된 게 있는지 확인하려고 시도 (미해결)
 ||5)ssh -o ProxyCommand로 인스턴스 내에 콘솔창에서 직접 접속하려고 시도하고 재부팅 시도 (미해결)|
+|해결|기존 oracle cloud에 등록해 놓은 ssh가 있는데, 팀플 과정에서 ssh를 등록하기 위해 ssh key를 찾아야 하는 것을 새로 key-gen하게 되어 접속불가한 거 였음 
